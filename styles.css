@@ -1,0 +1,124 @@
+body {
+  background-color: #51c2d5;
+  /*#ec4646*/
+  /*fallback color*/
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-weight: normal;
+  color: #a6a9b6;
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  background-color: #cdd0cb;
+  height: 2px;
+  border: none;
+  position: relative;
+  top: 215px;
+}
+
+p {
+  margin-top: -15px;
+  color: #a6a9b6;
+  color: hsl(0, 0%, 59%);
+  font-size: .8rem;
+}
+
+span {
+  color: #a6a9b6;
+  color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+  position: absolute;
+  Bottom: 10px;
+  width: 96%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -50%;
+  right: -5%;
+  z-index: -3;
+}
+
+.card {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.name-age {
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+.number1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+  text-align: center;
+}
+
+.number2 {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 155px;
+  text-align: center;
+}
+
+.number3 {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 235px;
+  text-align: center;
+}
+
+.place {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-size: .6rem;
+}
+
+.victor-img {
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 117px;
+  border: solid white 10px;
+  z-index: 5;
+}
+
+.white-background {
+  background-color: white;
+  display: block;
+  width: 350px;
+  height: 390px;
+  position: absolute;
+  border-radius: 15px;
+  left: 40%;
+  top: 40%;
+  z-index: -2;
+}
+
+.top {
+  position: absolute;
+  top: -30%;
+  left: -5%;
+  z-index: -3;
+}
