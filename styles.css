@@ -45,8 +45,8 @@ span {
 
 .bottom {
   position: absolute;
-  bottom: -50%;
-  right: -5%;
+  bottom: -60%;
+  right: -15%;
   z-index: -3;
 }
 
@@ -118,7 +118,7 @@ span {
 
 .top {
   position: absolute;
-  top: -30%;
-  left: -5%;
+    top: -40%;
+  left: -15%;
   z-index: -3;
 }
